@@ -51,6 +51,7 @@ Install OpenCV for Python:
 API Keys
 
 Configure your Google Generative AI and Weather API keys in a config.py file:
+
  Config = {
     'API-KEY': 'YOUR_GOOGLE_GENERATIVE_AI_KEY',
     'API_KEY_weather': 'YOUR_WEATHER_API_KEY'
@@ -58,6 +59,7 @@ Configure your Google Generative AI and Weather API keys in a config.py file:
 
 Running the Application
 
-Clone the repository:
+1. Clone the repository:
+
  git clone https://github.com/your-repo/ai-vision-weather.git
 cd ai-vision-weather
