@@ -5,55 +5,58 @@ This project is an interactive AI chatbot with vision and weather application th
 **Features**
 
 1. Speech Recognition and Text-to-Speech:
-The application listens to user speech, interpret it, and processes commands.
-It uses the browser’s Speech Recognition API to capture user input.
+ • The application listens to user speech, interpret it, and processes commands.
+ • It uses the browser’s Speech Recognition API to capture user input.
 
 2. Generative AI:
- The project integrates Google's Gemini-1.5-flash model for AI-based content generation.
-The AI processes user input, generates responses, and delivers them back to the user in speech and text.
+ • The project integrates Google's Gemini-1.5-flash model for AI-based content generation.
+ • The AI processes user input, generates responses, and delivers them back to the user in 
+   speech and text.
 
 3. Weather Widget:
- The application displays real-time weather data for the user's current location.
-It uses the api-ninjas.com weather API to fetch the latest temperature, humidity, wind speed, and sunrise/sunset times.
+ • The application displays real-time weather data for the user's current location.
+ • It uses the api-ninjas.com weather API to fetch the latest temperature, humidity, wind 
+   speed, and sunrise/sunset times.
 
 4. Computer Vision:
- A live video feed from the camera is displayed, and the feed can be processed for image-based AI tasks like content generation using Google Generative AI.
+ • A live video feed from the camera is displayed, and the feed can be processed for image- 
+   based AI tasks like content generation using Google Generative AI.
 
 5. Time Widget:
- A clock widget displays the current time, updated every second.
+ • A clock widget displays the current time, updated every second.
 
 6. IP_info
- Uses the http://ipinfo.io for getting the approximate location based on IP address.
+ • Uses the http://ipinfo.io for getting the approximate location based on IP address.
 
 **Technologies Used**
 
-JavaScript (Browser APIs):
-Speech Recognition and Text-to-Speech.
-Weather data visualization and real-time updates.
+• JavaScript (Browser APIs):
+  Speech Recognition and Text-to-Speech.
+  Weather data visualization and real-time updates.
 
-Python:
+• Python:
 video feed processing using OpenCV.
 Speech-to-text and weather data handling via API requests.
 Communication between frontend and backend using Eel.
 
-Google Generative AI:
+• Google Generative AI:
 Integrated for processing user commands and generating intelligent responses.
 
-Setup Instructions
+**Setup Instructions**
 
 **Prerequisites**
 
-Install Python 3.x
+• Install Python 3.x
 
-Install Eel Python library:
+• Install Eel Python library:
   pip install eel
 
-Install OpenCV for Python:
+• Install OpenCV for Python:
   pip install opencv-python
 
 **API Keys**
 
-Configure your Google Generative AI and Weather API keys in a config.py file:
+• Configure your Google Generative AI and Weather API keys in a config.py file:
 
  Config = {
     'API-KEY': 'YOUR_GOOGLE_GENERATIVE_AI_KEY',
