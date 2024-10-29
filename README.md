@@ -1,7 +1,8 @@
-AI Vision and Weather Application
+**AI Vision and Weather Application**
+
 This project is an interactive AI chatbot with vision and weather application that integrates multiple technologies, including speech recognition, text-to-speech, weather updates, and real-time computer vision using a camera feed. The project uses JavaScript, Python, and Eel to build a web-based interface that communicates with backend systems to process speech commands and generate responses using Google's Generative AI, Gemini-1.5-flash. And also uses various API's for speech recognition.
 
-Features
+**Features**
 
 1. Speech Recognition and Text-to-Speech:
 The application listens to user speech, interpret it, and processes commands.
@@ -24,7 +25,7 @@ It uses the api-ninjas.com weather API to fetch the latest temperature, humidity
 6. IP_info
  Uses the http://ipinfo.io for getting the approximate location based on IP address.
 
-Technologies Used
+**Technologies Used**
 
 JavaScript (Browser APIs):
 Speech Recognition and Text-to-Speech.
@@ -40,7 +41,7 @@ Integrated for processing user commands and generating intelligent responses.
 
 Setup Instructions
 
-Prerequisites
+**Prerequisites**
 
 Install Python 3.x
 
@@ -50,7 +51,7 @@ Install Eel Python library:
 Install OpenCV for Python:
   pip install opencv-python
 
-API Keys
+**API Keys**
 
 Configure your Google Generative AI and Weather API keys in a config.py file:
 
@@ -59,7 +60,7 @@ Configure your Google Generative AI and Weather API keys in a config.py file:
     'API_KEY_weather': 'YOUR_WEATHER_API_KEY'
 }
 
-Running the Application
+**Running the Application**
 
 1. Clone the repository:
 
