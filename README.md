@@ -1,4 +1,4 @@
-**AI Vision and Weather Application**
+ **AI Vision and Weather Application**
 
 This project is an interactive AI chatbot with vision and weather application that integrates multiple technologies, including speech recognition, text-to-speech, weather updates, and real-time computer vision using a camera feed. The project uses JavaScript, Python, and Eel to build a web-based interface that communicates with backend systems to process speech commands and generate responses using Google's Generative AI, Gemini-1.5-flash. And also uses various API's for speech recognition.
 
