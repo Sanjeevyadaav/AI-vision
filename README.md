@@ -45,12 +45,10 @@ Prerequisites
 Install Python 3.x
 
 Install Eel Python library:
- 
- pip install eel
+  pip install eel
 
 Install OpenCV for Python:
-
- pip install opencv-python
+  pip install opencv-python
 
 API Keys
 
